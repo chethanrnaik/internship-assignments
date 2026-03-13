@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Function Explorer</title>
+    <link rel="stylesheet" href="functions.css">
+</head>
+
+<body>
+
+<h1 class="title">JavaScript Function Explorer</h1>
+<p class="subtitle">Click a card to learn about each type of JS function</p>
+
+<div class="container">
+
+    <div class="card" onclick="showInfo('declaration')">
+        <h3>Function Declaration</h3>
+    </div>
+
+    <div class="card" onclick="showInfo('expression')">
+        <h3>Function Expression</h3>
+    </div>
+
+    <div class="card" onclick="showInfo('arrow')">
+        <h3>Arrow Function</h3>
+    </div>
+
+    <div class="card" onclick="showInfo('callback')">
+        <h3>Callback Function</h3>
+    </div>
+
+    <div class="card" onclick="showInfo('anonymous')">
+        <h3>Anonymous Function</h3>
+    </div>
+
+</div>
+
+<div id="infoBox" class="info-box">
+Click a function type above to see the explanation.
+</div>
+
+<script src="functions.js"></script>
+
+</body>
+</html>

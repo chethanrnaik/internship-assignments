@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Form with Captcha</title>
+
+<link rel="stylesheet" href="../css/web.css">
+
+</head>
+
+<body>
+
+  <h1>LOGIN PAGE</H1>
+    
+
+  <div class="container">
+    <form id="myForm">
+      <!-- First Two Fields -->
+      <input type="text" id="field1" placeholder="ENTER NAME" required>
+      <input type="text" id="field2" placeholder="PASSWORD" required>
+
+      <!-- Captcha Section (Hidden Initially) -->
+      <div id="captchaSection" class="hidden">
+        <div id="captchaText" class="captcha-box"></div>
+        <input type="text" id="captchaInput" placeholder="Enter captcha">
+       
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+ <script src="../js/web.js"></script>
+
+
+</body>
+</html>
